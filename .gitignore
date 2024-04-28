@@ -1,0 +1,6 @@
+app/*
+!app/**/*.py
+!app/**/*.ipynb
+!app/**/*.txt
+
+mongodb/*
