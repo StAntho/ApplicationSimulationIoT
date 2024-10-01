@@ -169,7 +169,7 @@ services:
       - "SPARK_MASTER=spark://spark-master:7077"
 
   pyspark-notebook:
-    image: jupyter/pyspark-notebook:python-3.7
+    image: jupyter/pyspark-notebook:python-3.11
     restart: always
     container_name: pyspark-notebook
     networks:
@@ -183,19 +183,19 @@ services:
     volumes:
       - ./app:/home/jovyan
 
-  mongodb:
-    image: mongo
-    container_name: mongodb-ipssi
-    restart: always
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: "admin"
-      MONGO_INITDB_ROOT_PASSWORD: "pwd"
-    volumes:
-      - ./mongodb:/data/db
-    ports:
-      - "27017:27017"
-    networks:
-      - iot-networks
+  # mongodb:
+  #   image: mongo
+  #   container_name: mongodb-ipssi
+  #   restart: always
+  #   environment:
+  #     MONGO_INITDB_ROOT_USERNAME: "admin"
+  #     MONGO_INITDB_ROOT_PASSWORD: "pwd"
+  #   volumes:
+  #     - ./mongodb:/data/db
+  #   ports:
+  #     - "27017:27017"
+  #   networks:
+  #     - iot-networks
 
 volumes:
   hadoop_namenode:

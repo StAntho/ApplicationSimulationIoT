@@ -4,3 +4,6 @@ app/*
 !app/**/*.txt
 
 mongodb/*
+
+pandas_app/__pycache__/
+pandas_app/datas/

@@ -1,0 +1,32 @@
+{
+  "players": [
+    {
+      "sensor_id": "1",
+      "name": "John",
+      "sex": "male",
+      "birthday": "1990-05-15",
+      "height": 195
+    },
+    {
+      "sensor_id": "2",
+      "name": "Emile",
+      "sex": "male",
+      "birthday": "1995-09-20",
+      "height": 187
+    },
+    {
+      "sensor_id": "3",
+      "name": "Michael",
+      "sex": "male",
+      "birthday": "1988-12-10",
+      "height": 175
+    },
+    {
+      "sensor_id": "4",
+      "name": "Sara",
+      "sex": "female",
+      "birthday": "1992-03-25",
+      "height": 165
+    }
+  ]
+}

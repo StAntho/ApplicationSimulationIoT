@@ -10,3 +10,6 @@ https://cheerful-yacht-8f6.notion.site/Hadoop-Spark-Kafka-e3647dcb2e014e48a7cb1d
 
 Liens de l'exercice:
 https://file.notion.so/f/f/4e8c04dc-fc73-4d71-98b1-c9a775156b9a/d61f016a-ba9a-40f0-814b-f6554740730a/2_-_TP_Spark_Streaming_IOT.pdf?id=177a7c45-e1ee-4bb1-b994-41889281bd4c&table=block&spaceId=4e8c04dc-fc73-4d71-98b1-c9a775156b9a&expirationTimestamp=1714154400000&signature=t8Qr7yW9tvuPInbQwnIrUmbA0aynLRn6i03q4PDRfxU&downloadName=2+-+TP+Spark+Streaming+IOT.pdf
+
+
+Création des données et stockages sur HDFS sur capteur.python

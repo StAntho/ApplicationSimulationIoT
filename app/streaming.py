@@ -5,11 +5,11 @@ from pyspark.sql.types import *
 # spark.sparkContext.setLogLevel("WARN")
 
 schema = StructType([
-    StructField("topic", StringType(), False),
-    StructField("timestamp", StringType(), False),
     StructField("device", StringType(), False),
+    StructField("heart_rate", StringType(), False),
+    StructField("timestamp", StringType(), False),
+    StructField("topic", IntegerType(), False),
     StructField("value", IntegerType(), False),
-    StructField("heart_rate", IntegerType(), False),
 ])
 
 # Initialisation de la SparkSession
